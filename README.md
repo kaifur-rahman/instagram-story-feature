@@ -30,7 +30,18 @@ This project is a **mobile-only Instagram-style story viewer** built using **Rea
 
 ## 📂 Project Structure
 
-
+.
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Layout.jsx
+│ │ ├── Stories.jsx
+│ │ └── Button.jsx
+│ ├── data/
+│ │ └── data.js
+│ └── App.jsx
+├── index.html
+└── package.json
 ---
 
 ## 🧠 Learnings & Challenges
