@@ -1,12 +1,65 @@
-# React + Vite
+# 📱 Instagram Story Feature Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **mobile-only Instagram-style story viewer** built using **React**, **Vite**, and **Material UI (MUI)**. It mimics the core functionality of stories in Instagram — including timed transitions, image preloading, navigation buttons, and a **dynamic progress bar** for each story.
 
-Currently, two official plugins are available:
+> 🔒 Best viewed on mobile — the layout is optimized for small screens only!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⏱️ Auto-play each story with a **5-second** timer
+- 📶 Visual **progress bar** on top for each story
+- 🌀 Smooth fade-in transitions on image load
+- 🖱️ Navigation controls (Next / Previous)
+- ⚙️ Responsive design (mobile-first approach)
+- ⛔ Desktop view restricted with helpful message
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech            | Purpose                        |
+|----------------|--------------------------------|
+| **React**       | UI library                     |
+| **Vite**        | Fast build tool and dev server |
+| **MUI**         | Component styling              |
+| **Custom Hooks**| Image load & story state logic |
+
+---
+
+## 📸 Screenshots
+
+| Mobile Story View | Progress Bar |
+|-------------------|--------------|
+| ![Story](./screenshots/story.jpg) | ![Progress](./screenshots/progress.jpg) |
+
+> (📸 Replace with actual screenshots from your project directory)
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## 🧠 Learnings & Challenges
+
+- Syncing **image load** with **transition delay** required careful coordination using `onload` and `setTimeout`.
+- Building a **responsive, animated progress bar** synced with the story timer was the most fun and challenging part.
+- Restricted the view for desktops with a user-friendly message to mimic Instagram UX.
+
+---
+
+## 💻 Setup & Run Locally
+
+```bash
+git clone https://github.com/kaifur-rahman/instagram-story-feature.git
+cd instagram-story-feature
+npm install
+npm run dev
+
+
+---
+
+Let me know if you want me to include deployment instructions (like Netlify/Vercel), or if you've used TypeScript or added animations with Framer Motion — I can tailor it accordingly.
