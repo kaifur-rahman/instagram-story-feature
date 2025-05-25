@@ -28,16 +28,6 @@ This project is a **mobile-only Instagram-style story viewer** built using **Rea
 
 ---
 
-## 📸 Screenshots
-
-| Mobile Story View | Progress Bar |
-|-------------------|--------------|
-| ![Story](./screenshots/story.jpg) | ![Progress](./screenshots/progress.jpg) |
-
-> (📸 Replace with actual screenshots from your project directory)
-
----
-
 ## 📂 Project Structure
 
 
