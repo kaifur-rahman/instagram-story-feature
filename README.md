@@ -44,6 +44,7 @@ This project is a **mobile-only Instagram-style story viewer** built using **Rea
 ├── index.html
 └── package.json
 
+```
 ---
 
 ## 🧠 Learnings & Challenges
