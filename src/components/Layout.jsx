@@ -57,6 +57,7 @@ export default function Layout() {
           Icon={ArrowLeftIcon}
           handleAction={handlePrev}
           disabled={disablePrev}
+          dir={"left"}
         />
         {/* stories */}
         <Stories currStory={currImage} />
@@ -65,6 +66,7 @@ export default function Layout() {
           Icon={ArrowRightIcon}
           handleAction={handleNext}
           disabled={disableNext}
+          dir={"right"}
         />
       </Box>
 
